@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <!--/*NOTE ここにレスポンシブ対応のメタタグを入れる-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>データマニア</title>
+    <link rel="stylesheet" href="asset/css/style.css">
+    <!--bootstrapを導入する記述-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <script src="asset/js/jquery.min.js"></script>
+
+</head>
+
+
+<body>
+    <header>
+        <img src="asset/css/logo-datamania.png" alt="">
+        <h1><span>データマーケティングの</span><br><span>未来を作る</span></h1>
+
+
+        <div>
+            <p class="circle">今なら<br>初月無料</p>
+        </div>
+    </header>
+    <!--ナビゲーション-->
+    <!--<nav class="row">
+            <li class="col-1.5">最新情報</li>
+            <li class="col-1.5">サービスの特徴</li>
+            <li class="col-1.5">3つの強み</li>
+            <li class="col-1.5">お客様の声</li>
+            <li class="col-2" class="r">お問い合わせ</li>
+        </nav> -->
+
+    <!--liで作るか、divで作るのか、どちらが良いか分からない。。。ちなみにどちらでもできない。。。-->
+
+    <div class="row">
+        <div class="col-1">最新情報</div>
+        <div class="col-1">サービスの特徴</div>
+        <div class="col-1">3つの強み</div>
+        <div class="col-1">お客様の声</div>
+        <div class="col">
+        </div>
+        <div class="col-2">お問い合わせ</div>
+    </div>
+
+
+    <!--todo 最新情報-->
+    <section class="info">
+        <h2>最新情報</h2>
+        <!--
+            <div>
+               <div>
+                <p>2019.08.23
+                    新料金プラン「Mania 5」をリリースしました。</p>
+                </div>
+                <div>
+                <p>2019.08.08
+                    Android OS版のアプリケーションにおける決済機能の不具合について</p>
+                </div>
+                <div>
+                    <p>2019.07.14</p><p>
+                    関東テレビ「サックリ
+                    」にData Mania代表の石渡が出演します。</p>
+                </div>
+            </div>
+            -->
+
+        <div class="container">
+            <div class="item1">2019.08.23</div>
+            <div class="item2">新料金プラン「Mania 5」をリリースしました。</div>
+        </div>
+        <div class="container">
+            <div class="item3">2019.08.08</div>
+            <div class="item4">Android OS版のアプリケーションにおける決済機能の不具合について</div>
+        </div>
+        <div class="container">
+            <div class="item5">2019.07.14</div>
+            <div class="item6">関東テレビの情報番組「サックリ！」にData Mania代表の石渡が出演します</div>
+        </div>
+        <div class="past">
+            <a href="#">過去の情報を見る</a>
+        </div>
+    </section>
+
+    <!-- TODO サービスの特徴-->
+    <section class="feature">
+        <h2>サービスの特徴</h2>
+        <p>DataManiaはデータマーケティングの効率を最大化するために設計されています。
+            自動分析・レポート機能、ユーザー管理機能、通知機能、その他データマーケティングに必要不可欠な40の機能を、先進的で洗練されたインターフェースで利用することができます。
+            満を持してリリースされたバージョン2からは、忙しいマーケターのためにスマートフォンアプリ版もリリースされました。</p>
+
+        <div>
+            <img src="asset/img/icon-alert.png">
+            <img src="asset/img/icon-auto_analytics.png">
+            <img src="asset/img/icon-auto_reporting.png">
+            <img src="asset/img/icon-smartphone.png">
+            <img src="asset/img/icon-time_management.png">
+            <img src="asset/img/icon-user_management.png">
+            <img src="" alt="">
+        </div>
+        <buttun>
+            機能について詳しく知る
+        </buttun>
+    </section>
+
+    <!--//TODO Data Maniaの3つの強み-->
+    <section class="advantage">
+        <h2>Data Maniaの3つの強み</h2>
+        <div>
+            <ol>
+                <img src="asset/img/img-usp-01.png" alt="アイコン01">
+                <div class="sp">
+                    <li>データマーケティングの支援に特化</li>
+                    <p>データ分析アプリケーションは多数ありますが、データマーケティングに特化したものはData Maniaを置いて他にありません。単なる分析機能・レポーティング機能だけでなく、当社独自調査による過去のマーケティング事例を元に、最適な施策を提案します。</p>
+                </div>
+
+                <img src="asset/img/img-usp-02.png" alt="アイコン02">
+                <div class="sp">
+                    <li>稼働率99.9％の自社製サーバー</li>
+                    <p>八王子と松代にそれぞれ設置された自社製のサーバーは99.9%の高稼働率を保証します。それぞれのサーバーは、相互に最適化されたアルゴリズムでデータを同期しており、万が一片方が自然災害やその他の事故で稼働できない状況になっても、サービス自体への影響は全くありません。</p>
+                </div>
+
+                <img src="asset/img/img-usp-03.png" alt="アイコン03">
+                <div class="sp">
+                    <li>24時間365日対応のサポート体制</li>
+                    <p>Data Maniaは先進的な機能と洗練されたインターフェースで、マーケターの企画・立案を支援します。一方、こういったツールに不慣れなお客様にも安心してお使いいただけるよう、オペレーターが24時間365日対応可能なサポート体制を構築しています。
+                        もしアプリケーションの操作でわからないシーンに遭遇しても安心です。</p>
+                </div>S
+
+            </ol>
+        </div>
+    </section>
+
+    <!--//TODOお客様の声-->
+    <section class="voice">
+        <h2>お客様の声</h2>
+        <div>
+            <img src="asset/img/photo-mr_okochi.jpg" alt="大河内様のお写真">
+            <p>Data Maniaを導入する前は、全てのデータひとつひとつ集め、それを分析し、レポートするまでを全て手作業で行っていました。
+                この工程で膨大な時間を使ってしまい、肝心のマーケティング施策を考える時間がどんどん削られていましたが、Data Mania導入後はそういった作業を一切しなくて済むようになりました。
+                これからもきっと我が社には欠かせないツールであり続けると確信しています。</p>
+        </div>
+        <div>
+            <img src="asset/img/photo-ms_kagari.jpg" alt="篝様のお写真">
+            <p>全てのデータがひとつに集約されるので、煩わしいデータの整理をする必要が一切ありません。トライアル期間に申し込んだのですが、使い始めて30分でまさに当社が求めていたツールだと確信しました。</p>
+        </div>
+        <div>
+            <img src="asset/img/photo-mr_nakajima.jpg" alt="中島様のお写真">
+            <p>安い！速い！すごい！見事に私の求める要素三拍
+                子が揃ったツールです。
+                Data Maniaを使い始めてからは毎日定時で上が
+                れるようになりました！</p>
+        </div>
+        <div>
+            <img src="asset/img/photo-mr_davis.jpg" alt="デイビス様のお写真">
+            <p>以前他のツールを使っていた時は、自分たちの使
+                いやすい形にデータを整形するなど、結局手作業
+                が発生してしまうケースが多かったのですが、
+                Data Maniaは日々レポートのテンプレートが追
+                加されているので、「こういう形でデータがみた
+                い」というニーズに必ずマッチします。
+                もうこれなしの頃には戻れません。</p>
+        </div>
+
+
+
+    </section>
+
+
+
+
+    <!--//TODO お問い合わせフォーム-->
+    <section class="contact">
+        <h2>お問い合わせ</h2>
+        <div>
+            <p>お名前</p>
+            <input type="text">
+        </div>
+        <div>
+            <p>メールアドレス</p>
+            <input type="email">
+        </div>
+        <div>
+            <p>お問い合わせ種別</p>
+            <input type="">
+            <!--ここのタイプ属性がわからん！！名前はドロップボックス-->
+        </div>
+        <div>
+            <p>お問い合わせ内容</p>
+            <input type="textarera">
+        </div>
+        <buttun>
+            送信
+        </buttun>
+    </section>
+
+
+    <footer>
+        <div>
+            <p>企業情報</p>
+            <li>会社概要</li>
+            <li>ミッション</li>
+            <li>メッセージ</li>
+            <li>アクセス</li>
+            <li>採用情報</li>
+        </div>
+
+        <div>
+            <p>メディア情報</p>
+            <li>掲載情報</li>
+            <li>取材のお申込み</li>
+        </div>
+        <div>
+            <p>サポート</p>
+            <li>よくあるご質問</li>
+            <li>サービス稼働状況</li>
+            <li>お問い合わせ</li>
+        </div>
+        <div>
+            <p>サイトについて</p>
+            <li>利用規約</li>
+            <li>プライバシーポリシー</li>
+        </div>
+    </footer>
+
+    <!--ここにjqueryの記述をしていく-->
+    <script>
+    </script>
+</body></html>
+
+
+
+
+
+
+<!--
+//TODO bootstrapの導入
+//TODO jqueryの導入
+//TODO bootstrapの記法を確認
+//TODO img達に分かりやすい名前を付ける
+//TODO [×]HTMLの枠組みを先に作ってしまう？
+//todo jsのことを考えてid属性をつけるやつを決める
+-->
+
+
+<!--/*NOTE points*/
+/*NOTE ページ内の要素へのナビゲーション*/
+/*NOTE 各セクションの見出しのあしらい*/
+/*NOTE 各セクションの横幅*/
+/*NOTE 要素の天地中央配置*/
+/*NOTE ボタンのマウスオン時のスタイル・トランジション*/-->

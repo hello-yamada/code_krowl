@@ -1,0 +1,107 @@
+header {
+    background-image: url("main_visual.jpg");
+    /*todo 画像パスがうまくいかない原因を調べる*/
+    max-width: 100%;
+    height: 400px;
+}
+
+header span {
+    background-color: #000;
+    color: #fff;
+    font-size: 24px;
+}
+
+.circle {
+    width: 180px;
+    height: 180px;
+    text-align: center;
+    font-size: 24px;
+    float: right;
+    border: solid 3px #008DD5;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+
+}
+
+/*note ここに、.itemをかく*/
+.item1,
+.item3,
+.item5 {
+    margin: 10px 120px 10px 120px;
+}
+
+.item2,
+.item4,
+.item6 {
+    margin: 10px 100px 10px 10px;
+}
+
+.col {
+    background-color: #008DD5;
+    color: #fff;
+}
+
+.col-1 {
+    background-color: #008DD5;
+    color: #fff;
+}
+
+.col-2 {
+    background-color: #A9D92F;
+    color: #fff;
+}
+
+
+/*nav {
+    list-style: none;
+    overflow: hidden;
+}
+
+nav li {
+    padding: 10px;
+    margin: 0;
+    display:block;
+    width: ;
+    position:relative;
+    text-align: left;
+    background-color: skyblue;
+    float: left;
+}
+
+リストにカーソルを合わせたときの表示
+nav li a {}*/
+
+h2 {
+    text-align: center;
+    font-size: 32px;
+    margin: 50px 0px 50px 0px;
+}
+
+.info p {
+    margin: 10px 10px 20px 20px;
+    position: relative;
+}
+
+.date {
+    margin: 0px 0px 20px 20px;
+    top: 20px;
+    bottom: 30px;
+    left: 30px;
+    right: 20px;
+}
+
+.sp {
+    clear: left;
+}
+
+.sp img {
+    float: left;
+}
+
+
+/* todo 3ピクセルを合わせる(margin,padding,height,width,etc)*/
